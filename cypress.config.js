@@ -6,4 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  env:{
+    URL:'https://agrieximorganic.com/'
+  }
 });
