@@ -4,6 +4,8 @@ const homeobj=new homePage();   //create homeobj for homePage class
 describe('Test Automation',()=>{
 
     it('Home Page Flow',()=>{
-        homeobj.openURL()
+        homeobj.openURL();
+        homeobj.checkwhoarewe();
+        homeobj.checktxtwhoarewe();
     })
 })
