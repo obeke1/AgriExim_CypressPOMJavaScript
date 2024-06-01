@@ -4,6 +4,7 @@
   "description": "Agri Exim UgandaLimted - Cypress Javascript Automation",
   "main": "index.js",
   "scripts": {
+    "test:home": "npx cypress run --spec cypress/e2e/tests/home.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Obeke Godfrey Vicent",
